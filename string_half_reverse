@@ -1,0 +1,9 @@
+a=input()
+b=len(a)
+c=int(b/2)
+str1=a[0:c]
+str2=a[c::]
+str3=str1[::-1]
+string1=str3+str2
+print(string1)
+
